@@ -1,0 +1,16 @@
+{
+  "completed_resamples": 30,
+  "complete_30_resamples": true,
+  "original_split_accuracy": 0.9674242424242424,
+  "original_split_reference_accuracy": 0.971212,
+  "mean_accuracy": 0.968080808080808,
+  "std_accuracy_ddof1": 0.004622018589946873,
+  "reference_mean_30": 0.9690150666666667,
+  "reference_std_30_ddof1": 0.005253745973495776,
+  "mean_macro_f1": 0.9680607181026416,
+  "mean_roc_auc": 0.9955272670449192,
+  "classifier_seed_matches_authors_random_draws": false,
+  "note": "Classifier seeds fixed before scoring; article section4.1/Fig17 acknowledges seed-induced variation. Original author package versions unspecified; no tuning based on test.",
+  "original_split_delta_pp": -0.37877575757575555,
+  "mean_delta_pp": -0.0934258585858716
+}

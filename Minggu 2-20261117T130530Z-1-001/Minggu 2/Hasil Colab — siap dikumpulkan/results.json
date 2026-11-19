@@ -1,0 +1,79 @@
+{
+  "methods": [
+    {
+      "method": "QUANT_ExtraTrees",
+      "identity": "39b9aef31b9cf85c043a4af2747c0e4ca48a4aa3164322acc6db963d41ee30fe",
+      "features": 4469,
+      "accuracy": 0.9674242424242424,
+      "balanced_accuracy": 0.9678014243069775,
+      "macro_f1": 0.9674125532861593,
+      "roc_auc": 0.9958210677016907,
+      "confusion_matrix": [
+        [
+          651,
+          30
+        ],
+        [
+          13,
+          626
+        ]
+      ],
+      "fit_seconds": 35.59452557899999,
+      "predict_seconds": 0.20084133200009546,
+      "score_type": "probability",
+      "alpha": null,
+      "predictions_sha256": "ff90a378898da276fb42dcf2a9a7b89f1d917acd87242ca2205740a08a16f443"
+    },
+    {
+      "method": "Welch48_ExtraTrees",
+      "identity": "39b9aef31b9cf85c043a4af2747c0e4ca48a4aa3164322acc6db963d41ee30fe",
+      "features": 48,
+      "accuracy": 0.9734848484848485,
+      "balanced_accuracy": 0.9735303647632245,
+      "macro_f1": 0.9734616822880855,
+      "roc_auc": 0.9966334144531079,
+      "confusion_matrix": [
+        [
+          662,
+          19
+        ],
+        [
+          16,
+          623
+        ]
+      ],
+      "fit_seconds": 0.7788424029999987,
+      "predict_seconds": 0.15165388100001564,
+      "score_type": "probability",
+      "alpha": null,
+      "predictions_sha256": "995bb0771a1003b6e2ce90915bb4222961b79632d879d17e25c65cdb0bd2955a"
+    },
+    {
+      "method": "QUANT_Ridge",
+      "identity": "39b9aef31b9cf85c043a4af2747c0e4ca48a4aa3164322acc6db963d41ee30fe",
+      "features": 4469,
+      "accuracy": 0.9583333333333334,
+      "balanced_accuracy": 0.958508269391188,
+      "macro_f1": 0.9583072753804461,
+      "roc_auc": 0.9911227850050212,
+      "confusion_matrix": [
+        [
+          649,
+          32
+        ],
+        [
+          23,
+          616
+        ]
+      ],
+      "fit_seconds": 24.10898565299999,
+      "predict_seconds": 0.16777551400002721,
+      "score_type": "decision_function",
+      "alpha": 1000.0,
+      "predictions_sha256": "774c218dfad96b0166303e478de3ff14b8d24c36c82cde1041ecff10f866c410"
+    }
+  ],
+  "scope": "M2_original_split",
+  "data_complete": true,
+  "test_used_for_tuning": false
+}

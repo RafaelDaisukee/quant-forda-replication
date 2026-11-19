@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "complete": true,
+  "completed_fold_jobs": 15,
+  "total_fold_jobs": 15,
+  "learning_jobs": 12,
+  "new_fits_this_invocation": 27,
+  "cached_fits_this_invocation": 0,
+  "OOF_cases_per_method": 4921
+}

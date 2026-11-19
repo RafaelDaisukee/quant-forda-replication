@@ -1,0 +1,21 @@
+{
+  "archive_sha256": "4d78a72e5165e8da40c51115a8219c9d01978aafac6334ed8dfabd29da359ffb",
+  "train_shape": [
+    3601,
+    500
+  ],
+  "test_shape": [
+    1320,
+    500
+  ],
+  "original_train_labels": {
+    "-1": 1846,
+    "1": 1755
+  },
+  "original_test_labels": {
+    "-1": 681,
+    "1": 639
+  },
+  "all_cases_used": true,
+  "new_scaling_applied": false
+}

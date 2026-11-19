@@ -1,0 +1,3 @@
+baseline,comparator,metric,n_pairs,df,mean_delta,delta_std,t_statistic,p_raw,p_holm,ci95_low,ci95_high,significant_holm_005,test_status,interpretation
+QUANT_ExtraTrees,Welch48_ExtraTrees,macro_f1,5,4,0.001218123080166622,0.007914107101466011,0.3441709819304106,0.748049833345736,0.748049833345736,-0.008608538785652488,0.011044784945985731,False,computed,no_significant_difference_established
+QUANT_ExtraTrees,QUANT_Ridge,macro_f1,5,4,-0.01037866063617383,0.007453083445006547,-3.113797245009312,0.03574032398399309,0.07148064796798619,-0.01963288602544696,-0.0011244352469006996,False,computed,no_significant_difference_established

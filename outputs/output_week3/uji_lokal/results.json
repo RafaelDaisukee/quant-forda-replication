@@ -1,0 +1,129 @@
+{
+  "summary": [
+    {
+      "method": "QUANT_ExtraTrees",
+      "folds": 5,
+      "accuracy_mean": 0.9682984606495811,
+      "accuracy_std": 0.0023275783123625953,
+      "balanced_accuracy_mean": 0.968436901169562,
+      "balanced_accuracy_std": 0.00217093339941071,
+      "macro_f1_mean": 0.9682828311708931,
+      "macro_f1_std": 0.0023220380705712244,
+      "roc_auc_mean": 0.9954965831679594,
+      "roc_auc_std": 0.0005465944687085867,
+      "fit_seconds_mean": 14.491924880014267,
+      "fit_seconds_std": 0.5953435049853951,
+      "predict_seconds_mean": 0.08748283999739215,
+      "predict_seconds_std": 0.0032114149216130867,
+      "f1_minus1_mean": 0.9689348283956226,
+      "f1_minus1_std": 0.002492049645488771,
+      "f1_plus1_mean": 0.9676308339461637,
+      "f1_plus1_std": 0.002173545933039265
+    },
+    {
+      "method": "Welch48_ExtraTrees",
+      "folds": 5,
+      "accuracy_mean": 0.9691135322520739,
+      "accuracy_std": 0.006359036220334642,
+      "balanced_accuracy_mean": 0.9691339003846527,
+      "balanced_accuracy_std": 0.006166616905470282,
+      "macro_f1_mean": 0.9690930690816384,
+      "macro_f1_std": 0.006352370805332598,
+      "roc_auc_mean": 0.9956439230027854,
+      "roc_auc_std": 0.0006339938924581065,
+      "fit_seconds_mean": 0.28006470000836997,
+      "fit_seconds_std": 0.009889950010876569,
+      "predict_seconds_mean": 0.06874332000734285,
+      "predict_seconds_std": 0.0003076923631296217,
+      "f1_minus1_mean": 0.9698398330709231,
+      "f1_minus1_std": 0.006415332027612063,
+      "f1_plus1_mean": 0.9683463050923535,
+      "f1_plus1_std": 0.006296913529351406
+    },
+    {
+      "method": "QUANT_Ridge",
+      "folds": 5,
+      "accuracy_mean": 0.957733688250588,
+      "accuracy_std": 0.0046143621444923915,
+      "balanced_accuracy_mean": 0.9577072215142517,
+      "balanced_accuracy_std": 0.004702939933382558,
+      "macro_f1_mean": 0.9576983336491599,
+      "macro_f1_std": 0.004625673963239337,
+      "roc_auc_mean": 0.9925483484231841,
+      "roc_auc_std": 0.0012825922494667655,
+      "fit_seconds_mean": 6.8984504400054,
+      "fit_seconds_std": 0.17905260378332694,
+      "predict_seconds_mean": 0.0654880599817261,
+      "predict_seconds_std": 0.003896598238026076,
+      "f1_minus1_mean": 0.9588350634158308,
+      "f1_minus1_std": 0.004365027266871455,
+      "f1_plus1_mean": 0.9565616038824889,
+      "f1_plus1_std": 0.004934981327089774
+    }
+  ],
+  "paired_tests": [
+    {
+      "baseline": "QUANT_ExtraTrees",
+      "comparator": "Welch48_ExtraTrees",
+      "metric": "macro_f1",
+      "n_pairs": 5,
+      "df": 4,
+      "mean_delta": 0.0008102379107452595,
+      "delta_std": 0.007086632256081545,
+      "direction": "comparator_minus_baseline",
+      "t_statistic": 0.2556569864083208,
+      "p_raw": 0.8108241518739349,
+      "ci95_low": -0.00798897823014073,
+      "ci95_high": 0.009609454051631248,
+      "test_status": "computed",
+      "p_holm": 0.8108241518739349,
+      "significant_holm_005": false,
+      "interpretation": "no_significant_difference_established"
+    },
+    {
+      "baseline": "QUANT_ExtraTrees",
+      "comparator": "QUANT_Ridge",
+      "metric": "macro_f1",
+      "n_pairs": 5,
+      "df": 4,
+      "mean_delta": -0.01058449752173316,
+      "delta_std": 0.0065747188404300504,
+      "direction": "comparator_minus_baseline",
+      "t_statistic": -3.599797427189344,
+      "p_raw": 0.022762244064398123,
+      "ci95_low": -0.018748089204207168,
+      "ci95_high": -0.002420905839259151,
+      "test_status": "computed",
+      "p_holm": 0.045524488128796246,
+      "significant_holm_005": true,
+      "interpretation": "different_mean_in_exploratory_test"
+    }
+  ],
+  "error_summary": [
+    {
+      "method": "QUANT_ExtraTrees",
+      "false_positive": 93,
+      "false_negative": 63,
+      "total_errors": 156,
+      "positive_label": 1
+    },
+    {
+      "method": "Welch48_ExtraTrees",
+      "false_positive": 80,
+      "false_negative": 72,
+      "total_errors": 152,
+      "positive_label": 1
+    },
+    {
+      "method": "QUANT_Ridge",
+      "false_positive": 105,
+      "false_negative": 103,
+      "total_errors": 208,
+      "positive_label": 1
+    }
+  ],
+  "complete": true,
+  "folds": 5,
+  "scope": "M3_pooled_4921_cases_not_official_holdout",
+  "statistics_limitations": "Exploratory paired t-tests with five correlated CV folds. Holm corrects two comparisons, not fold dependence. No external confirmation."
+}

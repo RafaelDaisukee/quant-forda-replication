@@ -1,0 +1,7 @@
+QUANT_ExtraTrees: accuracy=0.967424, Macro-F1=0.967413, AUC=0.995821
+Welch48_ExtraTrees: accuracy=0.973485, Macro-F1=0.973462, AUC=0.996633
+QUANT_Ridge: accuracy=0.958333, Macro-F1=0.958307, AUC=0.991123
+Learning curve 720 train / 721 validation; test untouched.
+Learning curve 1440 train / 721 validation; test untouched.
+Learning curve 2160 train / 721 validation; test untouched.
+Learning curve 2880 train / 721 validation; test untouched.

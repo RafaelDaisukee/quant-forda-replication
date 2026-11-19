@@ -1,0 +1,15 @@
+{
+  "quant_shape": [
+    4921,
+    4469
+  ],
+  "compact_shape": [
+    4921,
+    48
+  ],
+  "quant_seconds_this_run": 3.0009697630000005,
+  "quant_cache_reused": true,
+  "compact_seconds": 0.32687674299995706,
+  "compact_dimensions_reduction_pct": 98.92593421347058,
+  "timing_note": "A reused cache time is not a fresh extraction benchmark."
+}

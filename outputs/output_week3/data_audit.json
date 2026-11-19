@@ -1,0 +1,12 @@
+{
+  "n_cases": 4921,
+  "signal_length": 500,
+  "all_cases_used": true,
+  "original_train": 3601,
+  "original_test": 1320,
+  "archive_sha256": "4d78a72e5165e8da40c51115a8219c9d01978aafac6334ed8dfabd29da359ffb",
+  "exact_duplicate_groups": [],
+  "cross_fold_duplicate_groups": [],
+  "conflicting_label_duplicate_groups": [],
+  "limitations": "Exact duplicate audit only; no engine/session grouping metadata. Original official test is pooled for M3."
+}

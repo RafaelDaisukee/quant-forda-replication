@@ -1,0 +1,79 @@
+{
+  "methods": [
+    {
+      "method": "QUANT_ExtraTrees",
+      "identity": "809833e5b86be86d5209aa7726d87776399fea78ee8e6134a16c4368e9cfdb0e",
+      "features": 4469,
+      "accuracy": 0.9681818181818181,
+      "balanced_accuracy": 0.9685838969204359,
+      "macro_f1": 0.9681712962962963,
+      "roc_auc": 0.9958417497972005,
+      "confusion_matrix": [
+        [
+          651,
+          30
+        ],
+        [
+          12,
+          627
+        ]
+      ],
+      "fit_seconds": 12.44946869998239,
+      "predict_seconds": 0.09174250002251938,
+      "score_type": "probability",
+      "alpha": null,
+      "predictions_sha256": "3db6df25820676688c985e71a973497622918fd9d9d5a1de586afe97eaf2af67"
+    },
+    {
+      "method": "Welch48_ExtraTrees",
+      "identity": "809833e5b86be86d5209aa7726d87776399fea78ee8e6134a16c4368e9cfdb0e",
+      "features": 48,
+      "accuracy": 0.9734848484848485,
+      "balanced_accuracy": 0.9735303647632245,
+      "macro_f1": 0.9734616822880855,
+      "roc_auc": 0.9966334144531079,
+      "confusion_matrix": [
+        [
+          662,
+          19
+        ],
+        [
+          16,
+          623
+        ]
+      ],
+      "fit_seconds": 0.27563979994738474,
+      "predict_seconds": 0.06991890002973378,
+      "score_type": "probability",
+      "alpha": null,
+      "predictions_sha256": "b13526d8133e45ed0e31de5828daf0e6f2fb15d610674c5fbab836f88b270490"
+    },
+    {
+      "method": "QUANT_Ridge",
+      "identity": "809833e5b86be86d5209aa7726d87776399fea78ee8e6134a16c4368e9cfdb0e",
+      "features": 4469,
+      "accuracy": 0.9575757575757575,
+      "balanced_accuracy": 0.9577257967777295,
+      "macro_f1": 0.957547592410943,
+      "roc_auc": 0.9919178966768468,
+      "confusion_matrix": [
+        [
+          649,
+          32
+        ],
+        [
+          24,
+          615
+        ]
+      ],
+      "fit_seconds": 5.551142400014214,
+      "predict_seconds": 0.08697940001729876,
+      "score_type": "decision_function",
+      "alpha": 1000.0,
+      "predictions_sha256": "95aacd162af5ef0f49bfd69f5d099f68b8caaf6c8b18f0c3438df1192760df49"
+    }
+  ],
+  "scope": "M2_original_split",
+  "data_complete": true,
+  "test_used_for_tuning": false
+}

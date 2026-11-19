@@ -1,0 +1,23 @@
+{
+  "python": "3.13.18 (main, Oct 26 2026, 15:28:15) [GCC 13.3.0]",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "processor": "x86_64",
+  "packages": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.6.1",
+    "torch": "2.6.0+cpu",
+    "joblib": "1.4.2",
+    "threadpoolctl": "3.6.0",
+    "matplotlib": "3.10.1",
+    "psutil": "7.0.0"
+  },
+  "runner_sha256": "7a53749ecf84b1f925defc3cd6a34723364b53c42c953b221e21fc8b415abf7d",
+  "source_lock": {
+    "repository": "https://github.com/angus924/quant",
+    "reference_results_commit": "f3907f7e531b6a304e3c54310869a0023a9e0fd6",
+    "source_code_commit": "5956b7252464d2c17e3b541e051b05f03c7442ff",
+    "source_sha256": "a46094499033443342f048a65770d10b70e9cc64f27145e3f035ab08b54ef817"
+  },
+  "comparison_sha256": "d681a222859ffa8a02daecd1988a0fafc8d516409b9042134a4d28fb59433fc4"
+}
