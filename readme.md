@@ -178,10 +178,13 @@ Struktur direktori aktual di dalam repository ini diorganisir per minggu pengerj
 quant-forda-replication/
 ├── config/                               # Konfigurasi parameter & dependensi
 │   ├── week1/
+│   │   ├── config.json
 │   │   ├── requirements.txt
+│   │   ├── requirements_actual.txt
 │   │   └── week1_config.json
 │   ├── week2/
 │   │   ├── config.json
+│   │   ├── requirements.txt
 │   │   └── requirements_actual.txt
 │   └── week3/
 │       ├── config.json
@@ -192,6 +195,8 @@ quant-forda-replication/
 │   │   ├── FordA.zip
 │   │   ├── FordA_TEST.ts
 │   │   └── FordA_TRAIN.ts
+│   ├── week1/
+│   │   └── data_audit.json
 │   ├── week2/
 │   │   ├── feature_audit.json
 │   │   └── split.json
@@ -203,7 +208,8 @@ quant-forda-replication/
 │   │   └── Minggu_1_Replikasi_QUANT_FordA.pptx
 │   ├── week2/
 │   │   ├── environment.json
-│   │   └── Minggu_2_Pembanding_QUANT_FordA_Hasil_Colab.pptx
+│   │   ├── Minggu_2_Pembanding_QUANT_FordA_Hasil_Colab.pptx
+│   │   └── Panduan_M2.md
 │   └── week3/
 │       ├── environment.json
 │       ├── Minggu_3_Hasil_Analisis_Colab.pptx
@@ -224,13 +230,16 @@ quant-forda-replication/
 │   │   ├── boxplot_resamples.png
 │   │   ├── confusion_roc_original.png
 │   │   ├── data_audit.json
-│   │   └── paper_vs_run.csv
+│   │   ├── paper_vs_run.csv
+│   │   └── summary.json
 │   ├── output_week2/
 │   │   ├── comparison.csv
 │   │   ├── confusion_matrix.png
+│   │   ├── learning_curves.json
 │   │   ├── learning_curves.png
 │   │   ├── results.json
-│   │   └── roc.png
+│   │   ├── roc.png
+│   │   └── uji_lokal/                    # Arsip pembanding hasil uji lokal Windows
 │   └── output_week3/
 │       ├── boxplot_metrics.png
 │       ├── boxplot_per_class.png
