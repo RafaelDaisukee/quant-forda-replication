@@ -186,10 +186,12 @@ quant-forda-replication/
 │   │   ├── config.json
 │   │   ├── requirements.txt
 │   │   └── requirements_actual.txt
-│   └── week3/
-│       ├── config.json
-│       ├── requirements.txt
-│       └── requirements_actual.txt
+│   ├── week3/
+│   │   ├── config.json
+│   │   ├── requirements.txt
+│   │   └── requirements_actual.txt
+│   └── week4/
+│       └── requirements.txt
 ├── data/                                 # Data mentah FordA & log audit data
 │   ├── data/
 │   │   ├── FordA.zip
@@ -200,60 +202,90 @@ quant-forda-replication/
 │   ├── week2/
 │   │   ├── feature_audit.json
 │   │   └── split.json
-│   └── week3/
-│       └── data_audit.json
-├── docs/                                 # Dokumentasi lingkungan & slide presentasi
+│   ├── week3/
+│   │   └── data_audit.json
+│   └── week4/
+├── docs/                                 # Dokumentasi lingkungan, artikel, & slide presentasi
 │   ├── week1/
 │   │   ├── environment.json
 │   │   └── Minggu_1_Replikasi_QUANT_FordA.pptx
 │   ├── week2/
-│   │   ├── environment.json
+│   │   ├── environmentm2.json
 │   │   ├── Minggu_2_Pembanding_QUANT_FordA_Hasil_Colab.pptx
 │   │   └── Panduan_M2.md
-│   └── week3/
-│       ├── environment.json
-│       ├── Minggu_3_Hasil_Analisis_Colab.pptx
-│       └── Panduan_M3.md
+│   ├── week3/
+│   │   ├── environmentm3.json
+│   │   ├── Minggu_3_Hasil_Analisis_Colab.pptx
+│   │   └── Panduan_M3.md
+│   └── week4/
+│       ├── ARTIFACTS.md
+│       ├── Artikel M4 — Klasifikasi Sinyal Mesin FordA.docx
+│       ├── Artikel_M4.docx
+│       ├── Artikel_M4_Engine_Sound_Classification.pdf
+│       ├── Artikel_M4_Revisi_Tab1.docx
+│       ├── flowchart_metodologi.md
+│       ├── flowchart_metodologi_lengkap.png
+│       ├── Minggu_4.pptx
+│       ├── Minggu_4_Artikel_dan_Reproduksibilitas.pptx
+│       ├── Panduan_M4.md
+│       └── README_paket_M1_M4.md
 ├── logs/                                 # Log terminal eksekusi per tahapan
 │   ├── week1/
 │   │   └── execution.log
 │   ├── week2/
 │   │   └── execution.log
-│   └── week3/
-│       └── execution.log
-├── notebooks/                            # Jupyter Notebook interaktif utama
+│   ├── week3/
+│   │   └── execution.log
+│   └── week4/
+├── notebooks/                            # Jupyter Notebook & skrip eksperimen
 │   ├── 01_replikasi_QUANT_FordA_selesai_30_resample.ipynb
 │   ├── 02_pembanding_QUANT_FordA.ipynb
-│   └── 03_hasil_analisis.ipynb
+│   ├── 03_hasil_analisis.ipynb
+│   └── week4/
+│       ├── ablation_features.py
+│       ├── benchmark_extraction_latency.py
+│       ├── run.py
+│       └── verify_artifacts.py
 ├── outputs/                              # Plot visualisasi, tabel metrik, & JSON hasil
 │   ├── output_week1/
 │   │   ├── boxplot_resamples.png
 │   │   ├── confusion_roc_original.png
 │   │   ├── data_audit.json
 │   │   ├── paper_vs_run.csv
+│   │   ├── provenance.json
+│   │   ├── resamples_from_output.csv
 │   │   └── summary.json
 │   ├── output_week2/
 │   │   ├── comparison.csv
 │   │   ├── confusion_matrix.png
 │   │   ├── learning_curves.json
 │   │   ├── learning_curves.png
+│   │   ├── provenance.json
 │   │   ├── results.json
-│   │   ├── roc.png
+│   │   └── roc.png
+│   ├── output_week3/
+│   │   ├── boxplot_metrics.png
+│   │   ├── boxplot_per_class.png
+│   │   ├── confusion_oof.png
+│   │   ├── data_audit.json
+│   │   ├── error_examples.png
+│   │   ├── error_summary.csv
+│   │   ├── fold_metrics.csv
+│   │   ├── learning_curve_internal.png
+│   │   ├── paired_tests.csv
+│   │   ├── provenance.json
+│   │   ├── results.json
+│   │   ├── roc_multifold.png
+│   │   ├── run_status.json
+│   │   ├── summary.csv
 │   │   └── uji_lokal/                    # Arsip pembanding hasil uji lokal Windows
-│   └── output_week3/
-│       ├── boxplot_metrics.png
-│       ├── boxplot_per_class.png
-│       ├── confusion_oof.png
-│       ├── data_audit.json
-│       ├── error_examples.png
-│       ├── fold_metrics.csv
-│       ├── learning_curve_internal.png
-│       ├── paired_tests.csv
-│       ├── results.json
-│       ├── roc_multifold.png
-│       ├── run_status.json
-│       ├── summary.csv
-│       └── uji_lokal/                    # Arsip pembanding hasil uji lokal Windows
+│   └── output_week4/
+│       ├── dotplot_multifold_f1.png
+│       └── MANIFEST.json
+├── src/                                  # Kode sumber modular M1-M3 & kode vendor QUANT/aeon
+│   ├── m1_quant_forda/
+│   ├── m2_quant_forda/
+│   └── m3_quant_forda/
 ├── .gitignore
 └── readme.md
 ```
