@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-08",
+  "source": "User-completed Google Colab M3; no training executed during report update",
+  "notebook": "https://colab.research.google.com/drive/1d6W8AQOhEN3Ct0Fp2ruOAeY5URt-DBb3",
+  "completed_snapshot": "https://colab.research.google.com/drive/1zN2Cvh6FelC-ErCfhyb1VSh0b4UaVfjw",
+  "source_folder": "https://drive.google.com/drive/folders/1GtxIXejbYLCI3YBsQkXc2t12RPQsPxuh",
+  "submission_folder": "https://drive.google.com/drive/folders/1np3wHfV2wESasjmMhkto4yalsPTC1rmV",
+  "document": "https://docs.google.com/document/d/1dqPjWJd_ifbmQJio4_Uogvrl-M1qta8W60LAzUP4Y5g",
+  "presentation": "https://docs.google.com/presentation/d/1lqP2cXhjA7OYL5dnJxkO4YjssCcZyY-0/edit?usp=drivesdk&ouid=110057718029419689837&rtpof=true&sd=true",
+  "presentation_sha256": "c71fb636ac0af924dd65c09df6c3792a56df7c7cf455557a5e1dcfd6fd02bfa2",
+  "M3_complete": true,
+  "main_models": 15,
+  "learning_jobs": 12,
+  "oof_cases_per_method": 4921,
+  "holmp": {
+    "Welch48": 0.748049833345736,
+    "Ridge": 0.07148064796798619
+  },
+  "conclusion": "Neither comparator differs significantly after Holm at .05; exploratory correlated folds.",
+  "workflow": "Ask user approval before any new experiment run; execute on Colab; populate report numbers only after Colab completion and verification.",
+  "verification": {
+    "PPT_slides_reviewed": 10,
+    "Docs_pages_reviewed": 4,
+    "other_doc_tabs_preserved": true,
+    "model_training_in_this_turn": false
+  }
+}
